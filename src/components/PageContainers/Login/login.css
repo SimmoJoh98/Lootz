@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #2F323A;
+}
+
+.purple-rect {
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    width: 40%;
+    background-color: #52164F;
+    padding: 0;
+    margin: 0;
+}
+
+.chest-top {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.chest-top-vert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.vert-gold {
+    height: 10rem;
+    width: 3rem;
+    background-color: #FFA630;
+}
+
+.hor-gold {
+    width: 100%;
+    height: 3rem;
+    background-color: #FFA630;
+}
