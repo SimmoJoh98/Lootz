@@ -1,50 +1,111 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: #2F323A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #2f323a;
+}
+
+.login-container-fancy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
 .purple-rect {
-    display: flex;
-    flex-direction: column;
-    height: 45%;
-    width: 40%;
-    background-color: #52164F;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 45%;
+  width: 40%;
+  background-color: #52164f;
+  padding: 0;
+  margin: 0;
 }
 
 .chest-top {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chest-mid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.chest-mid-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  width: 10rem;
+  background-color: #ffa630;
+}
+
+.chest-mid-circle {
+  height: 4rem;
+  width: 4rem;
+  background-color: black;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.chest-mid-rect {
+  height: 4rem;
+  width: 2.5rem;
+  background-color: black;
+  margin-top: -2rem;
 }
 
 .chest-top-vert {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .vert-gold {
-    height: 10rem;
-    width: 3rem;
-    background-color: #FFA630;
+  height: 10rem;
+  width: 3rem;
+  background-color: #ffa630;
 }
 
 .hor-gold {
-    width: 100%;
-    height: 3rem;
-    background-color: #FFA630;
+  width: 100%;
+  height: 3rem;
+  background-color: #ffa630;
+}
+
+.chest-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.input-field {
+    outline: none;
+    border-radius: 5px;
+    background-color: #C4C4C4;
+}
+
+.input-field:focus{
+    outline: none;
+    border: none;
+}
+
+.input-field:hover{
+    outline: none;
+    border: none;
 }
